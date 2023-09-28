@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Concept Learning Survey</title>
+	<style>
+		h2 {
+			font-weight: bold;
+		}
+		button {
+			font-size: 24px;
+			padding: 20px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 10px;
+			cursor: pointer;
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+		}
+		button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+	<script>
+		function generateRandomId() {
+		// Generate a random integer between 200 and 201
+		return 201;//Math.floor(Math.random() * 2) + 200;
+		}
+
+		function redirectToSurvey() {
+			// Generate a random id
+			var id = generateRandomId();
+
+			// Redirect to survey.html with the id parameter
+			window.location.href = "survey.html?id=" + id;
+		}
+	</script>
+</head>
+<body>
+	<!-- The study has completed. Thank you everyone who participated! -->
+	<h1>Concept Learning Survey</h1>
+	<p>I am asking you to participate in a research study. I will describe this study to you in this document. This study is being led by Kevin Ellis at Cornell University.</p>
+
+	<p><strong>Only take this survey once. Please do not take this survey on a smartphone: You need a bigger screen to see things clearly.</strong></p>
+
+	<p><strong>Compensation</strong> - You will be compensated $10.00 in Amazon gift cards for your participation in this study. You will receive the gift card after you complete the survey. You will receive the gift card via email, so please make sure to enter your email address correctly.</p>
+
+	<p><strong>What the study is about</strong> - The purpose of this research is to understand how humans rapidly learn new concepts, and how we can make machines that do similarly.</p>
+
+	<p><strong>What we will ask you to do</strong> - I will ask you to look at examples of a new concept, and then guess what other things might belong to that concept.</p>
+
+	<p><strong>Risks and discomforts</strong> - I do not anticipate any risks from participating in this research.</p>
+
+	<p><strong>Benefits</strong> - I do not anticipate any direct benefits to the individual from participating in this research. Scientific knowledge gained from this study might help better design future AI systems.</p>
+
+	<p><strong>Privacy/Confidentiality/Data Security</strong> - We will keep your survey responses, but not identifying information such as name or netid. Please note that the survey is being conducted with the help of Google Forms, a company not affiliated with Cornell and with its own privacy and security policies that you can find at its website. We anticipate that your participation in this survey presents no greater risk than everyday use of the Internet.</p>
+
+	<p><strong>Sharing De-identified Data Collected in this Research</strong> - De-identified data from this study may be shared with the research community at large to advance science and health. We will remove or code any personal information that could identify you before files are shared with other researchers to ensure that, by current scientific standards and known methods, no one will be able to identify you from the information we share. Despite these measures, we cannot guarantee anonymity of your personal data.</p>
+
+	<p><strong>Taking part is voluntary</strong> - Participation in the study is voluntary. You may refuse to continue the survey at any point.</p>
+
+	<p><strong>If you have questions</strong> - The main researcher conducting this study is Kevin Ellis at Cornell University. If you have questions, you may contact him at kellis@cornell.edu. If you have any questions or concerns regarding your rights as a subject in this study, you may contact the Institutional Review Board (IRB) for Human Participants at 607-255-6182 or access their website at https://researchservices.cornell.edu/offices/IRB. You may also report your concerns or complaints anonymously through Ethicspoint online at www.hotline.cornell.edu or by calling toll-free at 1-866-293-3077. Ethicspoint is an independent organization that serves as a liaison between the University and the person bringing the complaint so that anonymity can be ensured.</p>
+
+	<button type="button" onclick="redirectToSurvey()" style="font-size: 32px; padding: 30px;">I Approve, I haven't taken the survey before, I'm not on a smartphone</button>
+</body>
+</html>
