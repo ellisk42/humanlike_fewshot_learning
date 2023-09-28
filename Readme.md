@@ -5,6 +5,15 @@ Bayesian Reasoning over Natural Language](https://arxiv.org/abs/2306.02797)
 
 It contains source code and data, critically including precomputed samples from expensive LLMs in `completions.db`.
 
+# OpenAI Setup
+
+OpenAI keys should be placed in a file called `secret_keys.py`. *You need to make this file.* Structure it like this:
+
+```
+def retrieve_keys():
+   return ["<my-first-key>", "<my-second-key-as-backup>", ...]
+```
+
 # Number Game
 
 ## Training
