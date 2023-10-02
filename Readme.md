@@ -5,6 +5,8 @@ Bayesian Reasoning over Natural Language](https://arxiv.org/abs/2306.02797)
 
 It contains source code and data, critically including precomputed samples from expensive LLMs in `completions.db`.
 
+Released under GPLv3 (see `LICENSE.txt`)
+
 # OpenAI Setup
 
 OpenAI keys should be placed in a file called `secret_keys.py`. *You need to make this file.* Structure it like this:
